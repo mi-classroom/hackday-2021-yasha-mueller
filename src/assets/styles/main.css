@@ -462,6 +462,9 @@ button.btn {
 /* Card Image with Caption
 ############################################################################ */
 .card-image-with-caption {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
   border-radius: 0.8rem;
   overflow: hidden;
   background-color: #000;

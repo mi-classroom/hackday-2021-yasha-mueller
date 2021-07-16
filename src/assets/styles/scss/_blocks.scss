@@ -3,18 +3,18 @@
 ############################################################################ */
 
 .card-image-with-caption {
-  
+
   border-radius: $border-radius;
   overflow: hidden;
   background-color: #000;
   position: relative;
-  
+
   >img {
     width: 100%;
   }
 
   >figcaption {
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
     left: 0;
@@ -61,11 +61,11 @@
 }
 
 .card-image-with-caption-v2 {
-  
+
   overflow: hidden;
   background-color: #000;
   position: relative;
-  
+
   >img {
     width: 100%;
     aspect-ratio: 1/1;
