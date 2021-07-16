@@ -21,7 +21,7 @@ $vp-xlarge: 1400px;
 $bfs: 1rem;
 $multiply: 0.008;
 
-/* Entlang der Renard10 Reihe 
+/* Entlang der Renard10 Reihe
   100, 125, 160, 200, 250, 315 */
 
 $xs: $bfs * $multiply * 100;
@@ -39,21 +39,21 @@ $xxl: $bfs * $multiply * 315;
 -----------------------------------------------------------------------------*/
 
 @font-face {
-  font-family: 'Roboto-light';
+  font-family: "Roboto-light";
   font-style: normal;
   font-weight: 100;
   src: local('Roboto-light'), url(/assets/fonts/Roboto/Roboto-Light.ttf);
 }
 
 @font-face {
-  font-family: 'Roboto-regular';
+  font-family: "Roboto-regular";
   font-style: normal;
   font-weight: 400;
   src: local('Roboto-regular'), url(/assets/fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
-  font-family: 'Roboto-bold';
+  font-family: "Roboto-bold";
   font-style: normal;
   font-weight: 700;
   src: local('Roboto-bold'), url(/assets/fonts/Roboto/Roboto-Bold.ttf);

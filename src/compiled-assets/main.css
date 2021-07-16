@@ -329,24 +329,24 @@ textarea {
 -----------------------------------------------------------------------------*/
 /* Größen und Abstände
 -----------------------------------------------------------------------------*/
-/* Entlang der Renard10 Reihe 
+/* Entlang der Renard10 Reihe
   100, 125, 160, 200, 250, 315 */
 /* Schriftarten
 -----------------------------------------------------------------------------*/
 @font-face {
-  font-family: 'Roboto-light';
+  font-family: "Roboto-light";
   font-style: normal;
   font-weight: 100;
   src: local("Roboto-light"), url(/assets/fonts/Roboto/Roboto-Light.ttf); }
 
 @font-face {
-  font-family: 'Roboto-regular';
+  font-family: "Roboto-regular";
   font-style: normal;
   font-weight: 400;
   src: local("Roboto-regular"), url(/assets/fonts/Roboto/Roboto-Regular.ttf); }
 
 @font-face {
-  font-family: 'Roboto-bold';
+  font-family: "Roboto-bold";
   font-style: normal;
   font-weight: 700;
   src: local("Roboto-bold"), url(/assets/fonts/Roboto/Roboto-Bold.ttf); }
@@ -380,6 +380,7 @@ h1, h2, h3 {
   font-weight: 100; }
 
 p, table, figcaption, dt, dl, dd {
+  font-family: "Roboto-light";
   line-height: 120%;
   font-size: 1rem; }
 
@@ -462,7 +463,6 @@ button.btn {
 /* Card Image with Caption
 ############################################################################ */
 .card-image-with-caption {
-  border-radius: 0.8rem;
   overflow: hidden;
   background-color: #000;
   position: relative; }
@@ -475,7 +475,8 @@ button.btn {
     left: 0;
     padding: 1.28rem;
     padding-top: 2rem;
-    padding-bottom: 0.8rem; }
+    padding-bottom: 0.8rem;
+    border-top: 1px solid #666666; }
     .card-image-with-caption > figcaption > .additional-info {
       display: none; }
   .is-list-view .card-image-with-caption {
