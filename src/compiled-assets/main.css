@@ -437,6 +437,14 @@ h3 {
   grid-column-gap: 1.28rem;
   grid-row-gap: 1.28rem; }
 
+@media only screen and (min-width: 720px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media only screen and (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr); } }
+
 button.btn {
   padding: 0;
   background-color: transparent;
